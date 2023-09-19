@@ -70,6 +70,10 @@ const  App = () => {
         <Square isSelected = {turno === TURNS.O} children={TURNS.O} updateBoard={()=>{}} index={-1}/>
       </section>
       <WinnerModal ganador={ganador} resetGame={resetGame}/>
+      <footer>
+        <h2>&copy; Sergio Dacal Rodríguez</h2>
+        <h5>Daniel puto no me lo robes</h5>
+      </footer>
     </main>
   )
 }
