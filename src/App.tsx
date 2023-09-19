@@ -72,7 +72,9 @@ const  App = () => {
       <WinnerModal ganador={ganador} resetGame={resetGame}/>
       <footer>
         <h2>&copy; Sergio Dacal Rodríguez</h2>
-        <h5>Daniel puto no me lo robes</h5>
+        <br /><br />
+        <h5>Daniel puto observa mi maravillosa creación<br/>con React y Typescript (aprende typescript ya)</h5>
+        <h5><br/>PD: si dejas la partida a medias y recargas<br/>te carga la partida antigua</h5>
       </footer>
     </main>
   )
