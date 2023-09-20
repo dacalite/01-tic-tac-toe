@@ -9,7 +9,7 @@ import { saveGameStorage, resetGameStorage } from './logic/storage'
 const  App = () => {
   const [board, setBoard] = useState(() => {
     const boardFromStorage = window.localStorage.getItem('board')
-    return boardFromStorage ? JSON.parse(boardFromStorage) : Array(9).fill(null)
+    return boardFromStorage ? JSON.parse(boardFromStorage) : Array(16).fill(null)
   })
 
   const [turno, setTurno] = useState(() => {
@@ -37,7 +37,7 @@ const  App = () => {
   }
 
   const resetGame = () => {
-    setBoard(Array(9).fill(null))
+    setBoard(Array(16).fill(null))
     setTurno(TURNS.X)
     setGanador(null)
     resetGameStorage()
@@ -45,7 +45,7 @@ const  App = () => {
 
   return (
     <main className='board'>
-      <h1>Tres En Raya</h1>
+      <h1>Cuatro En Raya</h1>
       <p>(Con React y Typescript)</p>
       <button onClick={resetGame}>
         Reiniciar tablero
