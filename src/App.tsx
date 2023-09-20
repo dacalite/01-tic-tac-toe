@@ -47,6 +47,7 @@ const  App = () => {
   return (
     <main className='board'>
       <h1>Tres En Raya</h1>
+      <p>(Con React y Typescript)</p>
       <button onClick={resetGame}>
         Reiniciar tablero
       </button>
@@ -71,10 +72,9 @@ const  App = () => {
       </section>
       <WinnerModal ganador={ganador} resetGame={resetGame}/>
       <footer>
-        <h2>&copy; Sergio Dacal Rodríguez</h2>
+        <h3>Hecho por Sergio Dacal Rodríguez</h3>
         <br /><br />
-        <h5>Daniel puto observa mi maravillosa creación<br/>con React y Typescript (aprende typescript ya)</h5>
-        <h5><br/>PD: si dejas la partida a medias y recargas<br/>te carga la partida antigua</h5>
+        <h5>PD: si dejas la partida a medias y recargas<br/>te carga la partida antigua</h5>
       </footer>
     </main>
   )
