@@ -73,7 +73,7 @@ const  App = () => {
       <footer>
         <h3>Hecho por Sergio Dacal Rodríguez</h3>
         <br /><br />
-        <h5>PD: si dejas la partida a medias y recargas<br/>te carga la partida antigua</h5>
+        <h5>Si dejas la partida a medias y recargas<br/>te carga la partida antigua</h5>
       </footer>
     </main>
   )
